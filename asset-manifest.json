@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/fashiony-clothing/static/css/main.61e2da81.chunk.css",
+    "main.js": "/fashiony-clothing/static/js/main.9d71c1da.chunk.js",
+    "main.js.map": "/fashiony-clothing/static/js/main.9d71c1da.chunk.js.map",
+    "runtime-main.js": "/fashiony-clothing/static/js/runtime-main.9274975a.js",
+    "runtime-main.js.map": "/fashiony-clothing/static/js/runtime-main.9274975a.js.map",
+    "static/js/2.8006b987.chunk.js": "/fashiony-clothing/static/js/2.8006b987.chunk.js",
+    "static/js/2.8006b987.chunk.js.map": "/fashiony-clothing/static/js/2.8006b987.chunk.js.map",
+    "index.html": "/fashiony-clothing/index.html",
+    "precache-manifest.84b7b0e3990817081fd731222216e0a4.js": "/fashiony-clothing/precache-manifest.84b7b0e3990817081fd731222216e0a4.js",
+    "service-worker.js": "/fashiony-clothing/service-worker.js",
+    "static/css/main.61e2da81.chunk.css.map": "/fashiony-clothing/static/css/main.61e2da81.chunk.css.map",
+    "static/js/2.8006b987.chunk.js.LICENSE.txt": "/fashiony-clothing/static/js/2.8006b987.chunk.js.LICENSE.txt",
+    "static/media/crown.19ef7b17.svg": "/fashiony-clothing/static/media/crown.19ef7b17.svg",
+    "static/media/shopping-bag.30f07071.svg": "/fashiony-clothing/static/media/shopping-bag.30f07071.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9274975a.js",
+    "static/js/2.8006b987.chunk.js",
+    "static/css/main.61e2da81.chunk.css",
+    "static/js/main.9d71c1da.chunk.js"
+  ]
+}
