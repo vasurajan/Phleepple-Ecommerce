@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
     sections: [
       {
-        title: 'hats',
-        imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+        title: 'phones',
+        imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604682949/apple/homepage/phones.webp',
         id: 1,
-        linkUrl: 'shop/hats'
+        linkUrl: 'shop/phones'
       },
       {
-        title: 'jackets',
-        imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+        title: 'macs',
+        imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604682950/apple/homepage/macs.webp',
         id: 2,
-        linkUrl: 'shop/jackets'
+        linkUrl: 'shop/macs'
       },
       {
-        title: 'sneakers',
-        imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+        title: 'home',
+        imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604682950/apple/homepage/home.webp',
         id: 3,
-        linkUrl: 'shop/sneakers'
+        linkUrl: 'shop/home'
       },
       {
-        title: 'womens',
-        imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+        title: 'accessories+',
+        imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604682950/apple/homepage/accessories.webp',
         size: 'large',
         id: 4,
-        linkUrl: 'shop/womens'
+        linkUrl: 'shop/accessories'
       },
       {
-        title: 'mens',
-        imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+        title: 'iOne',
+        imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604682950/apple/homepage/one.webp',
         size: 'large',
         id: 5,
-        linkUrl: 'shop/mens'
+        linkUrl: 'shop/one'
       }
     ]
   };

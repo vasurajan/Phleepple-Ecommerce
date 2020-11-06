@@ -1,246 +1,156 @@
 const SHOP_DATA = {
-    hats: {
+    phones: {
       id: 1,
-      title: 'Hats',
-      routeName: 'hats',
+      title: 'Phones',
+      routeName: 'phones',
       items: [
         {
           id: 1,
-          name: 'Brown Brim',
-          imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          price: 25
+          name: 'iPhone 12',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681035/apple/phones/iphone12.webp',
+          price: 1099
         },
         {
           id: 2,
-          name: 'Blue Beanie',
-          imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-          price: 18
+          name: 'iPhone SE',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681035/apple/phones/iphonese.webp',
+          price: 399
         },
         {
           id: 3,
-          name: 'Brown Cowboy',
-          imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-          price: 35
+          name: 'iPhone 11',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681035/apple/phones/iphone11.webp',
+          price: 849
         },
         {
           id: 4,
-          name: 'Grey Brim',
-          imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          price: 25
-        },
-        {
-          id: 5,
-          name: 'Green Beanie',
-          imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-          price: 18
-        },
-        {
-          id: 6,
-          name: 'Palm Tree Cap',
-          imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-          price: 14
-        },
-        {
-          id: 7,
-          name: 'Red Beanie',
-          imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-          price: 18
-        },
-        {
-          id: 8,
-          name: 'Wolf Cap',
-          imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-          price: 14
-        },
-        {
-          id: 9,
-          name: 'Blue Snapback',
-          imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-          price: 16
+          name: 'iPhone XS',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681035/apple/phones/iphonexs.webp',
+          price: 999
         }
       ]
     },
-    sneakers: {
+    macs: {
       id: 2,
-      title: 'Sneakers',
-      routeName: 'sneakers',
+      title: 'Macs',
+      routeName: 'macs',
       items: [
         {
           id: 10,
-          name: 'Adidas NMD',
-          imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-          price: 220
+          name: 'Macbook Pro',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681032/apple/macs/pro.webp',
+          price: 1249
         },
         {
           id: 11,
-          name: 'Adidas Yeezy',
-          imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-          price: 280
+          name: 'Macbook Air',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681032/apple/macs/air.webp',
+          price: 1399
         },
         {
           id: 12,
-          name: 'Black Converse',
-          imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-          price: 110
+          name: 'iMac A1312',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681032/apple/macs/imac.webp',
+          price: 1819
         },
         {
           id: 13,
-          name: 'Nike White AirForce',
-          imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-          price: 160
-        },
-        {
-          id: 14,
-          name: 'Nike Red High Tops',
-          imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-          price: 160
-        },
-        {
-          id: 15,
-          name: 'Nike Brown High Tops',
-          imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-          price: 160
-        },
-        {
-          id: 16,
-          name: 'Air Jordan Limited',
-          imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-          price: 190
-        },
-        {
-          id: 17,
-          name: 'Timberlands',
-          imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-          price: 200
+          name: 'Mac Mini i5',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681032/apple/macs/mini.webp',
+          price: 1215
         }
       ]
     },
-    jackets: {
+    home: {
       id: 3,
-      title: 'Jackets',
-      routeName: 'jackets',
+      title: 'Apple Home',
+      routeName: 'home',
       items: [
         {
           id: 18,
-          name: 'Black Jean Shearling',
-          imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-          price: 125
+          name: 'Watch Series 6',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681029/apple/home/watch.webp',
+          price: 499
         },
         {
           id: 19,
-          name: 'Blue Jean Jacket',
-          imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-          price: 90
+          name: 'Airpods',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681029/apple/home/airpods.webp',
+          price: 159
         },
         {
           id: 20,
-          name: 'Grey Jean Jacket',
-          imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-          price: 90
+          name: 'Homepod Smart',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681029/apple/home/speakers.webp',
+          price: 159
         },
         {
           id: 21,
-          name: 'Brown Shearling',
-          imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-          price: 165
-        },
-        {
-          id: 22,
-          name: 'Tan Trench',
-          imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-          price: 185
+          name: 'iTV 4k',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681029/apple/home/tv.webp',
+          price: 197
         }
       ]
     },
-    womens: {
+    accessories: {
       id: 4,
-      title: 'Womens',
-      routeName: 'womens',
+      title: 'Accessories+',
+      routeName: 'accessories',
       items: [
         {
           id: 23,
-          name: 'Blue Tanktop',
-          imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-          price: 25
+          name: 'Magsafe Charger',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681025/apple/accessories/charger.webp',
+          price: 39
         },
         {
           id: 24,
-          name: 'Floral Blouse',
-          imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-          price: 20
+          name: 'iPhone 12 Silicon Case',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681025/apple/accessories/case.webp',
+          price: 49
         },
         {
           id: 25,
-          name: 'Floral Dress',
-          imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-          price: 80
+          name: 'Solo Loop',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604690660/apple/accessories/solo.png',
+          price: 29
         },
         {
           id: 26,
-          name: 'Red Dots Dress',
-          imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-          price: 80
-        },
-        {
-          id: 27,
-          name: 'Striped Sweater',
-          imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-          price: 45
-        },
-        {
-          id: 28,
-          name: 'Yellow Track Suit',
-          imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-          price: 135
-        },
-        {
-          id: 29,
-          name: 'White Blouse',
-          imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-          price: 20
+          name: 'Magic Keyboard',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681025/apple/accessories/keyboard.webp',
+          price: 99
         }
       ]
     },
-    mens: {
+    one: {
       id: 5,
-      title: 'Mens',
-      routeName: 'mens',
+      title: 'iOne',
+      routeName: 'one',
       items: [
         {
           id: 30,
-          name: 'Camo Down Vest',
-          imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-          price: 325
+          name: 'iMusic',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681032/apple/one/music.webp',
+          price: 10
         },
         {
           id: 31,
-          name: 'Floral T-shirt',
-          imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-          price: 20
+          name: 'Apple TV+',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681032/apple/one/tv.webp',
+          price: 5
         },
         {
           id: 32,
-          name: 'Black & White Longsleeve',
-          imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-          price: 25
+          name: 'Apple Arcade',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681032/apple/one/arcade.webp',
+          price: 5
         },
         {
           id: 33,
-          name: 'Pink T-shirt',
-          imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-          price: 25
-        },
-        {
-          id: 34,
-          name: 'Jean Long Sleeve',
-          imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-          price: 40
-        },
-        {
-          id: 35,
-          name: 'Burgundy T-shirt',
-          imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-          price: 25
+          name: 'iCloud',
+          imageUrl: 'https://res.cloudinary.com/kaliangrag/image/upload/v1604681032/apple/one/cloud.webp',
+          price: 10
         }
       ]
     }
