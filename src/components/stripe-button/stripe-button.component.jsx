@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label='Pay Now'
-      name='FASHIONY Clothing Ltd.'
+      name='Phleepple Ecommerce Ltd.'
       billingAddress
       shippingAddress
       image='https://svgshare.com/i/CUz.svg'
