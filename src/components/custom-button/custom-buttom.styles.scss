@@ -15,11 +15,13 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
+  border-radius: 8px;
 
   &:hover {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 1px solid rgb(194, 174, 174);
+
   }
 
   &.google-sign-in {
@@ -35,7 +37,8 @@
   &.inverted {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border: 1px solid rgb(194, 174, 174);
+
 
     &:hover {
       background-color: black;

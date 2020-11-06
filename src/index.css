@@ -1,3 +1,12 @@
+/* https://cdn.jsdelivr.net/gh/cleaodeuce/fonts@main/sfpro.ttf */
+
+@font-face {
+  font-family: 'SF';
+  src: url('https://cdn.jsdelivr.net/gh/cleaodeuce/fonts@main/sfpro.ttf'); /* IE9 Compat Modes */
+  src: url('https://cdn.jsdelivr.net/gh/cleaodeuce/fonts@main/sfpro.ttf')  format('truetype'),
+}
+
+
 body {
   margin: 0;
   padding: 0;
