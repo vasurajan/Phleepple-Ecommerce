@@ -1,7 +1,12 @@
 # Phleepple-Ecommerce
 This is an eCommerce application consisting of Apple Products built using React, Redux, Firebase also consisting of Login with Google authentication and Stripe-Api for payments.
 
-## Screenshots Walkthrough
+## What is an E-Commerce ?
+Ecommerce or electronic commerce actually means the use of an electronic medium for commercial transactions, but it is commonly used to refer to selling products and services over the internet to consumers or other businesses.
+
+According to another definition, ecommerce refers to the sharing of business information, maintenance of business relationships and conducting business transactions with the help of computers that are connected to a telecommunication network, and without the use of paper documents.
+
+## Project Screenshots Walkthrough
 
 ### Home Page
 
