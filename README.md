@@ -6,7 +6,7 @@ Ecommerce or electronic commerce actually means the use of an electronic medium 
 
 According to another definition, ecommerce refers to the sharing of business information, maintenance of business relationships and conducting business transactions with the help of computers that are connected to a telecommunication network, and without the use of paper documents.
 
-## Project GIF Walkthrough
+## Project Demo
 ![ecommerce](https://user-images.githubusercontent.com/63305945/101705643-69941e00-3aad-11eb-9e91-9d95e2c05c22.gif)
 
 ## Project Screenshots Walkthrough
